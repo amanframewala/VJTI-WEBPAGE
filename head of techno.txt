@@ -1,0 +1,25 @@
+ <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="css1/bootstrap.min.css" rel="stylesheet">
+    <!-- Owl Carousel Assets -->
+    <link href="css1/owl.carousel.css" rel="stylesheet">
+    <link href="css1/owl.theme.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css1/font-awesome.min.css" rel="stylesheet">
+    <!-- PrettyPhoto -->
+    <!-- Style -->
+    <link href="css1/style.css" rel="stylesheet">
+    <link href="css1/animate.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css1/responsive.css" rel="stylesheet">
+    <!-- Floating action button -->
+    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

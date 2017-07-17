@@ -3,23 +3,123 @@ body{
 }
 
 
+div{
+	
+	
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+body{
+	background: #333;
+}
 
-p{
-	color: black;
+table {
+    border-collapse: collapse;
 	text-align: center;
 	vertical-align: center;
+}
+.contactstable{
+	border: 1px solid black;
+	padding: 20px;
+	float:center;
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contactstable td{
+border: 1px solid black;
+	
+
+}
+.contactstable1{
+	padding: 20px;
+	float:center;
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.div1 {
+   background-color:#777;
+	padding: 20px;
+	align-content: center;
+}
+table, th, td {
+    
+	
+	font-size: auto;
+	text-align: center;
+	padding:15px;
+}
+th
+{
+	background-color: #001656;
+	color :white;
+	font-size: 115%;
+	
+}
+td{
+	background-color:#dddddd;
+	
+}	
+
+p{
+	/*color: black;*/
+	text-align: center;
+	vertical-align: center;
+
+	padding: 10px;
+	margin: 15px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.teachertable{
+	color: white;
 }
 
 h1{
 	text-align: center;
-	color: red;
+	color: white;
 	font-size: 300%;
 }
 
-.modal-body p{
-	text-align:left;
-	font-size:200%;
+h2{
+	text-align: center;
+	color: white;
+	font-size: 200%;
 }
+
+.DandB{
+	padding: 15px;
+	padding-top: 45px;
+	font-size: 300%;
+}
+.modal-body p{
+	text-align: left;
+}
+
+.vision p{
+	text-align: center;
+	color: #999;
+	font-style: italic;
+	font-size: 150%;
+} 
+
+.vision{
+	padding-bottom: 10px;
+}
+
+.director p{
+	text-align: center;
+	color: #999;
+	font-style: italic;
+	font-size: 150%;
+} 
 
 .col-md-4{
 	text-align: center;
@@ -32,7 +132,6 @@ h1{
 
 .departmentstable{
 	padding: 20px;
-	color: red;
 }
 
 .fests{
@@ -46,6 +145,18 @@ h1{
 	color: white;
 }
 
-.teachers{
-	background-color: red;
+.testing{
+	background-color: white;
+}
+.news a{
+	color: white;
+	
+	padding-left:20%;	
+}
+
+
+span
+{
+	text-align:center;
+	
 }
