@@ -1,0 +1,85 @@
+body{
+	background: #333;
+}
+
+
+
+p{
+	color: black;
+	text-align: center;
+	vertical-align: center;
+}
+table {
+    border-collapse: collapse;
+	text-align: center;
+	vertical-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+	
+	font-size: auto;
+	text-align: center;
+	padding:15px;
+}
+th
+{
+	background-color: #001656;
+	color :white;
+	font-size: 115%;
+	
+}
+td{
+	background-color:#dddddd;
+	
+}
+h1{
+	text-align: center;
+	color: black;
+	font-size: 300%;
+}
+.contactstable{
+	padding: 20px;
+	
+	
+}
+.div1 {
+   background-color:#aaaaaa;
+	padding: 20px;
+}
+
+.modal-body {
+	text-align:left;
+	font-size:150%;
+}
+
+.col-md-4{
+	text-align: center;
+	font-size: 150%;
+}
+
+.departmentstable p{
+	color: black;
+	text-align:left;
+
+}
+
+.departmentstable{
+	padding: 20px;
+	color: black;
+}
+
+.fests{
+	background-color: #777;
+}
+
+.fests a{
+	color: black;
+}
+.footer{
+	color: white;
+}
+
+.teachers{
+	background-color: red;
+}

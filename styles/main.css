@@ -1,0 +1,51 @@
+body{
+	background: #333;
+}
+
+
+
+p{
+	color: black;
+	text-align: center;
+	vertical-align: center;
+}
+
+h1{
+	text-align: center;
+	color: red;
+	font-size: 300%;
+}
+
+.modal-body p{
+	text-align:left;
+	font-size:200%;
+}
+
+.col-md-4{
+	text-align: center;
+	font-size: 150%;
+}
+
+.departmentstable p{
+	color: black;
+}
+
+.departmentstable{
+	padding: 20px;
+	color: red;
+}
+
+.fests{
+	background-color: #777;
+}
+
+.fests a{
+	color: black;
+}
+.footer{
+	color: white;
+}
+
+.teachers{
+	background-color: red;
+}
