@@ -69,7 +69,7 @@
                     <button type="submit" class="btn btn-default">Submit</button>
                   </form>
                     </li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="contactus.php">Contact Us</a></li>
 
                     
                   </ul>
@@ -159,7 +159,7 @@ Director – VJTI Mumbai.</p>
 
 
     <div class="div1" style="height:auto" style="overflow-x:auto;" align="center;" ><h1>MANAGEMENT</h1>
-			
+      
 <table class="contactstable1">
 <tr>
 <th>Sr.No</th>
@@ -186,15 +186,15 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
-	
+  
     while($row = $result->fetch_assoc()) {
-		
+    
         echo "<tr>";
-		echo "<td> ". $row["id"]. "</td>";
-		echo "<td>". $row["name"]. "</td>";
-		echo "<td>". $row["affiliation"]. "</td>";
-		echo "</tr>";}
-	
+    echo "<td> ". $row["id"]. "</td>";
+    echo "<td>". $row["name"]. "</td>";
+    echo "<td>". $row["affiliation"]. "</td>";
+    echo "</tr>";}
+  
 } else {
     echo "0 results";
 }
@@ -202,14 +202,14 @@ $conn->close();
 ?>
 </table>
 </div>
-		
+    
 
 
                             <div class="fixed-bg"></div>
-							
-							
+              
+              
     <div class="div1" style="height:auto" style="overflow-x:auto;" align="center;" ><h1>ADMINISTRATION</h1>
-			
+      
 <table class="contactstable">
 <tr>
 <th>Sr.No</th>
@@ -236,15 +236,15 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
-	
+  
     while($row = $result->fetch_assoc()) {
-		
+    
         echo "<tr>";
-		echo "<td> ". $row["admin_id"]. "</td>";
-		echo "<td>". $row["name"]. "</td>";
-		echo "<td>". $row["designation"]. "</td>";
-		echo "</tr>";}
-	
+    echo "<td> ". $row["admin_id"]. "</td>";
+    echo "<td>". $row["name"]. "</td>";
+    echo "<td>". $row["designation"]. "</td>";
+    echo "</tr>";}
+  
 } else {
     echo "0 results";
 }
@@ -252,12 +252,8 @@ $conn->close();
 ?>
 </table>
 </div>
-		
-
 
                             <div class="fixed-bg"></div>
-							
-							
 
                             <div class="DandB">
                             <div class="row">
@@ -283,7 +279,7 @@ $conn->close();
                         
 
             <div class="footer" style="height:100px;"><br><p>Veermata Jijabai Technological Institute © All rights reserved.
-              <br><a href="#">Sitemap</a>      |     <a href="#">Location</a>      |     <a href="#">Contact Us</a>      |     <a href="#">RTI</a></p></div>
+              <br><a href="sitemap.php">Sitemap</a>      |     <a href="location.php">Location</a>      |     <a href="contactus.php">Contact Us</a></p></div>
 
 
 

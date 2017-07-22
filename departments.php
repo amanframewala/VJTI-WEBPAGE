@@ -57,9 +57,9 @@
 
                   <ul class="nav navbar-nav">
 <!--                     class="active"
- -->                <li ><a href="#">About Us <span class="sr-only">(current)</span></a></li>
+ -->                <li ><a href="AboutUs.php">About Us <span class="sr-only">(current)</span></a></li>
                     <li class="active";><a href="#">Departments</a></li>
-                    <li><a href="#">Facilities</a></li>
+                    <li><a href="facilities.php">Facilities</a></li>
                 
                   </ul>
 
@@ -86,7 +86,7 @@
 
 				<br>
 				<br>
-              <h1>DEPARTMENTS</h1>
+              <h1 style="color:white;">DEPARTMENTS</h1>
 
 
 
@@ -846,8 +846,8 @@ $result = $conn->query($sql);
 
 
 
-            <div class="footer" style="height:100px;"><br><p>Veermata Jijabai Technological Institute © All rights reserved.
-              <br><a href="#">Sitemap</a>      |     <a href="#">Location</a>      |     <a href="#">Contact Us</a>      |     <a href="#">RTI</a></p></div>
+            <div class="footer" style="height:100px;" ><br><p style="color:white;">Veermata Jijabai Technological Institute © All rights reserved.
+              <br><a href="sitemap.php">Sitemap</a>      |     <a href="location.php">Location</a>      |     <a href="contactus.php">Contact Us</a></p></div>
 
 
 

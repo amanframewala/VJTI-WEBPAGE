@@ -9,10 +9,10 @@
 
     <style> 
 .fixed-bg {
-    background-image: url("home2.jpg");
-    min-height: 700px;
+    background-image: url("contactus.jpg");
+    min-height: 400px;
     background-attachment: fixed;
-    /*background-position: center;*/
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -34,7 +34,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/main2.css">
 
 
 
@@ -64,9 +64,9 @@
                     <!-- <li class="active"><a class="navbar-brand" href="index.html">VJTI</a>
                     </li> -->
 <!--                     class="active"
- -->                <li ><a href="#">About Us <span class="sr-only">(current)</span></a></li>
+ -->                <li ><a href="AboutUs.php">About Us <span class="sr-only">(current)</span></a></li>
                     <li><a href="departments.php">Departments</a></li>
-                    <li><a href="#">Facilities</a></li>
+                    <li><a href="facilities.php">Facilities</a></li>
 
 
                     <!-- <li class="dropdown">
@@ -166,10 +166,10 @@ $conn->close();
 
 
 
-                     <!--<div class="fixed-bg"></div>-->
+                     <div class="fixed-bg"></div>
 
-            <div class="footer" style="height:100px;"><br><p>Veermata Jijabai Technological Institute © All rights reserved.
-              <br><a href="#">Sitemap</a>      |     <a href="#">Location</a>      |     <a href="#">Contact Us</a>      |     <a href="#">RTI</a></p></div>
+            <div class="footer" style="height:100px;"><br><p style="color:white;">Veermata Jijabai Technological Institute © All rights reserved.
+              <br><a href="sitemap.php">Sitemap</a>      |     <a href="location.php">Location</a>      |     <a href="contactus.php">Contact Us</a></p></div>
 
 
 

@@ -81,7 +81,7 @@
                     <button type="submit" class="btn btn-default">Submit</button>
                   </form>
                     </li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="contactus.php">Contact Us</a></li>
 
                     
                   </ul>
@@ -203,7 +203,7 @@
 
 
             <div class="footer" style="height:100px;"><br><p>Veermata Jijabai Technological Institute © All rights reserved.
-              <br><a href="#">Sitemap</a>      |     <a href="#">Location</a>      |     <a href="#">Contact Us</a>      |     <a href="#">RTI</a></p></div>
+              <br><a href="sitemap.php">Sitemap</a>      |     <a href="location.php">Location</a>      |     <a href="contactus.php">Contact Us</a></p></div>
 
 
 
